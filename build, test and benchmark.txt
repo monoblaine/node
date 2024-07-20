@@ -1,0 +1,3 @@
+vcbuild.bat lint-js openssl-no-asm
+python tools/test.py parallel/test-path-relative.js
+Release\node.exe benchmark\path\relative-win32.js
